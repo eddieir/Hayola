@@ -12,7 +12,7 @@ from keras.utils import to_categorical
 
 from .ImagePreprocessor import *
 
-VOCAB_FILE              = '../vocabulary.vocab'
+VOCAB_FILE              = 'vocabulary.vocab'
 TRAINING_SET_NAME       = "training_set"
 VALIDATION_SET_NAME     = "validation_set"
 BATCH_SIZE              = 64
